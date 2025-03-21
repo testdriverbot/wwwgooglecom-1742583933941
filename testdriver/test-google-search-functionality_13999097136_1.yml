@@ -1,0 +1,13 @@
+version: 4.2.20
+session: 67ddbb0afa8f04aa4cd86b08
+steps:
+  - prompt: Click on the search input field.
+    commands:
+      - command: hover-text
+        text: Search Google or type a URL
+        description: main google search
+        action: click
+  - prompt: Type a query
+    commands:
+      - command: type
+        text: example query
